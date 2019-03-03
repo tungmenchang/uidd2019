@@ -1,0 +1,122 @@
+
+
+body{
+  margin: 0px;
+}
+
+p{margin: 0;}
+
+#navbar_l{
+  background: #e6fff7;
+  width: 50%;
+  height: 100vh;
+  float: left;
+  padding: 50px 80px;
+  position: fixed;
+}
+
+#navbar_r{
+  background: black;
+  width: 50%;
+  height: 100vh;
+  right: 0;
+  position: fixed;
+  padding: 50px 80px;
+  color: #878787;
+  font-size: 17px;
+}
+
+.topic{
+  font-family: "Papyrus",Arial;
+  font-size: 30px;
+  display: inline;
+  right: 0;
+}
+
+.material-icons{
+  font-size: 20px;
+}
+
+.topicon{
+  right: 100px;
+  position: absolute;
+  display: inline;
+}
+
+.main{
+  position:absolute;
+  left: 35%;
+  top: 30%;
+  font-size: 60px;
+}
+
+.gold{
+  color: #FFD700;
+  margin: 10px 0;
+}
+
+
+.line{
+  width:20px;
+  height:3px;
+  background-color:#666666;
+  margin:30px;
+}
+
+.linebox{
+  position: absolute;
+  left: 5%;
+  top: 40%;
+}
+
+.long{
+  width: 40px;
+  background-color: #FFD700;
+}
+
+.star{
+  width: 33%;
+  position: absolute;
+  right: 45%;
+  bottom: 50%;
+}
+
+.coffee{
+  width: 24%;
+  position: absolute;
+  left: 56%;
+  bottom: 50%;
+}
+
+.tree{
+  width: 28%;
+  position: absolute;
+  right: 60.5%;
+  top: 51%;
+}
+
+.crows{
+  width: 53%;
+  position: absolute;
+  left: 40.5%;
+  top: 51%;
+}
+
+.fab{
+  color: #737373;
+  font-size: 20px;
+  margin: 10px 20px;
+  float: right;
+}
+
+.quote1{
+  position: absolute;
+  bottom: 78%;
+  right: 50%;
+}
+
+.quote2{
+  position: absolute;
+  left: 45%;
+  top: 80%;
+}
