@@ -13,6 +13,10 @@ p{margin: 0;}
   float: left;
   padding: 50px 80px;
   position: fixed;
+  background-image: url(pattern1.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
 }
 
 #navbar_r{
