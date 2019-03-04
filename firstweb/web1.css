@@ -11,25 +11,60 @@ p{margin: 0;}
   width: 50%;
   height: 100vh;
   float: left;
+  position: fixed;
+}
+
+#navbar_l_text{
+  width: 50%;
+  height: 100vh;
+  float: left;
   padding: 50px 80px;
+  position: fixed;
+  opacity: 1;
+}
+
+#navbar_l_b{
+  width: 50%;
+  height: 100vh;
+  float: left;
   position: fixed;
   background-image: url(pattern1.jpg);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: cover;
+  opacity: 0.3;
 }
 
 #navbar_r{
-  background: black;
   width: 50%;
   height: 100vh;
   right: 0;
   position: fixed;
-  padding: 50px 80px;
-  color: #878787;
-  font-size: 17px;
+  background: black;
 }
 
+#navbar_r_text{
+  width: 50%;
+  height: 100vh;
+  right: 0;
+  padding: 50px 80px;
+  position: fixed;
+  opacity: 1;
+  font-size: 17px;
+  color: #878787;
+}
+
+#navbar_r_b{
+  width: 50%;
+  height: 100vh;
+  right: 0;
+  position: fixed;
+  background-image: url(pattern2.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  opacity: 0.1;
+}
 .topic{
   font-family: "Papyrus",Arial;
   font-size: 30px;
