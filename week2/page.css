@@ -1,0 +1,20 @@
+body{
+  padding: 6%;
+}
+
+#main{
+  background-color: yellow;
+  height: 40%;
+  width: 30%;
+  position: fixed;
+  right: 10%;
+ /* vertical-align: middle;*/
+}
+
+p{
+  font-size: 20px;
+}
+
+.topic{
+  font-size: 40px;
+}
