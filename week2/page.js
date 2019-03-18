@@ -21,9 +21,9 @@ $('.buttompic').click(function(){
 
 function buttom(){ 
   $('.buttompic').transition('stop all');
-  $('.buttompic').css({'transform':'scale(20)',
+  $('.buttompic').css({'transform':'scale(10)',
                        'opacity':'0',
-                       transition:'0.8s '
+                       'transition':'0.8s '
                       });
   $('.dot').css({'opacity':'0',
                  'transition':'0.3s'
@@ -41,6 +41,9 @@ function slidein(){
                  'transition':'1.5s ease-out'
                  
   });
+  $('.buttompic').css({'display':'none'
+                      });
+
 }
 
 function showbeer(){
