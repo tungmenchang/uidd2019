@@ -1,20 +1,177 @@
 body{
-  padding: 6%;
+  padding: 6% 15%;
 }
 
 #main{
-  background-color: yellow;
+  background-color: white;
   height: 40%;
   width: 30%;
   position: fixed;
   right: 10%;
+  top: 35%;
  /* vertical-align: middle;*/
 }
 
+#container{
+  position: fixed;
+  top: 22%;
+  left: 19%;
+  display: inline-block;
+  width: 38%;
+  
+}
+
+#container2{
+  position: fixed;
+  top: 42%;
+  left: -20%;
+  display: inline-block;
+  width: 38%;
+  opacity: 0;
+}
+
+.cloud{
+  /*display: true;*/
+}
+
 p{
-  font-size: 20px;
+  font-size: 18px;
+  word-spacing: 10px;
+  line-height: 1.2;
+  font-weight: lighter;
+  color: rgb(27,13,98,1);
 }
 
 .topic{
   font-size: 40px;
+}
+
+.firstpic{
+  display: block;
+  
+}
+
+.buttompic{
+  width: 16%;
+  top: 52%;
+  left:31%;
+  display: block;
+  position: absolute;
+  /*top: 0%;
+  left: -10%;
+  transform: scale(0.15);*/
+}
+
+.dot{
+  display: block;
+  position: absolute;
+  width: 16%;
+  top: 52%;
+  left: 31%;
+  transform: scale(0.35);
+}
+
+.meal, .beer{
+  width: 28%;
+  top: -5%;
+  left:8%;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.burger{
+  top: -17%;
+  left: 34%;
+  width: 25%;
+}
+
+.plate{
+  top: 17%;
+  left: 56%;
+  width: 37%;
+}
+
+.tag{
+  top: -50%;
+  left: 50%;
+  width: 17%;
+  opacity: 0;
+  transform-origin: left bottom;
+  transform: rotate(0deg);
+}
+
+.dot:hover{
+  cursor: pointer;
+}
+
+.buttompic:hover{
+  cursor: pointer;
+}
+
+.buttom:hover{
+  cursor: pointer;
+}
+
+.buttom{
+  height: 31px;
+  width: 130px;
+  border-radius: 35px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  margin: 15px 2px;
+  background-color: white;
+}
+
+.buttom p{
+  line-height:31px;
+  
+  font-size: 14px;
+}
+
+h1{
+  display: inline-block;
+  color:rgb(27,13,98,1);
+}
+
+.buttom.low{
+  height: 35px;
+  width: 150px;
+  position: absolute;
+  background-color: #cccccc;
+  top:67%;
+  left: 60%;
+}
+
+.buttom.low p{
+  line-height: 35px;
+  font-size:18px;
+  color: white;
+}
+
+.buttom.start{
+  background-color: #1b0d62;
+}
+
+.buttom.start p{
+  color: white;
+}
+
+.buttom.pink{
+  background-color: #e44e72;
+  transition: 0s;
+}
+
+.pink:hover{
+  background-color: white;
+  border-style: solid;
+  border-color: #e44e72;
+}
+
+.buttom.pink p:hover{
+  color: #e44e72;
+  line-height: 30px;
+  font-size: 18px;
 }
